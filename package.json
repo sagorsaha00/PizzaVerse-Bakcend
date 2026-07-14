@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec tsx watch main.ts",
-    "build": "tsc"
+    "build": "echo 'No build step required for standalone Vercel Node function'"
   },
   "keywords": [],
   "author": "",
