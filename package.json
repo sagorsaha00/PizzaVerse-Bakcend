@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec tsx watch main.ts"
+    "dev": "nodemon --exec tsx watch main.ts",
+    "build": "pnpm install "
   },
   "keywords": [],
   "author": "",
