@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 const port = 3001
 app.use(cors({
-    origin: '*',
+    origin: 'https://pizza-verse-blue.vercel.app',
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
