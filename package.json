@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec tsx watch main.ts",
-    "build": "pnpm install "
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
